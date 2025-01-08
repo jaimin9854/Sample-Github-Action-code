@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "project": {
+            "key": "JUDE"
+        },
+        "summary": "Test Execution for Test Plan JUDE-45",
+        "issuetype": {
+            "name": "Test Execution"
+        }
+    }, 
+    "xrayFields": {
+        	"testPlanKey": "JUDE-45",
+        	"environments": ["UAT"]
+    }
+}
