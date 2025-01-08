@@ -53,6 +53,7 @@ jobs:
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}          
       - name: Publish Unit Test Results
-        uses: EnricoMi/publish-unit-test-result-action/composite@v1
+#        uses: EnricoMi/publish-unit-test-result-action/composite@v1
+        uses: EnricoMi/publish-unit-test-result-action@v2
         with:
            files: target/surefire-reports/*.xml
