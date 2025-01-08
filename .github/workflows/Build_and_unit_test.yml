@@ -2,11 +2,11 @@ name: Build and Unit Test Action
 
 on:
   workflow_dispatch:
-#  pull_request:
-#    types:
-#      - opened
-#    branches: 
-#      - 'releases/**'
+  pull_request:
+    types:
+      - opened
+    branches: 
+      - 'releases/**'
 
 jobs:
 
