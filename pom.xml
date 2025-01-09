@@ -18,7 +18,7 @@
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2021.0.0</spring-cloud.version>
 		<testcontainers.version>1.16.3</testcontainers.version>
-		<cucumber.version>7.2.3</cucumber.version>
+		<cucumber.version>7.20.1</cucumber.version>
 		<sonar.organization>jaimin9854</sonar.organization>
 		<sonar.projectKey>Sample-Github-Action-code</sonar.projectKey>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
