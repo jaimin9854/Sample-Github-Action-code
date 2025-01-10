@@ -126,7 +126,8 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v5.1.2
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} 
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: jaimin9854/Sample-Github-Action-code
           flags: unittests 
           name: codecov-umbrella 
           fail_ci_if_error: true 
